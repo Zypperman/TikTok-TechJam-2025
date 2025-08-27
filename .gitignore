@@ -109,7 +109,7 @@ ipython_config.py
 #poetry.toml
 
 # pdm
-#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
+#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
 #   pdm recommends including project-wide configuration in pdm.toml, but excluding .pdm-python.
 #   https://pdm-project.org/en/latest/usage/project/#working-with-version-control
 #pdm.lock
@@ -183,9 +183,8 @@ cython_debug/
 
 # Visual Studio Code
 #  Visual Studio Code specific template is maintained in a separate VisualStudioCode.gitignore 
-#  that can be found at https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
-#  and can be added to the global gitignore or merged into this file. However, if you prefer, 
-#  you could uncomment the following to ignore the entire vscode folder
+#  and can be found at https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
+#  However, if you prefer, you could uncomment the following to ignore the entire vscode folder
 # .vscode/
 
 # Ruff stuff:
@@ -205,3 +204,8 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Raw datasets and large files (excluded from version control)
+01 Data Collection/google_dataset/
+01 Data Collection/collected_data/
+package-lock.json

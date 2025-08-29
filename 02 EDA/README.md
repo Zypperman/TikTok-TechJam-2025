@@ -13,7 +13,7 @@
 * Lists most common words for each violation.
 * Performs optional sentiment analysis using VADER if installed.
 * Computes avg text length and word count by violation type.
-* Outputs all plots and statistics for EDA coverage.
+* Outputs all plots and statistics for EDA coverage to the `eda_plots` subdir
 
 # Usage
 
@@ -21,3 +21,4 @@ Below workflow assumes presence of `ml_ready_dataset.csv` and `unified_reviews_d
 
 1. Create a virtual environment and install all requirements within `requirements.txt`
 2. Run `python3 eda_full_reviews.py`
+
